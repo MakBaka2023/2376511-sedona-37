@@ -309,16 +309,13 @@ body {
   fill: #000;
 }
 
-.devlogo-svg:hover {
+.devlogo:hover .devlogo-svg,
+.devlogo:focus .devlogo-svg {
   fill: #756157;
 }
 
-.devlogo-container a:focus svg {
-  fill: #756157;
-}
-
-.devlogo-svg:active {
-  fill: rgba(117, 97, 87, 0.3);
+.devlogo:active .devlogo-svg {
+fill: rgba(117, 97, 87, 0.3);
 }
 
 /* visually hidden */
